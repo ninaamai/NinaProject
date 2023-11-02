@@ -1,0 +1,230 @@
+﻿header {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+.main-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1650px !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.slider {
+    height: 600px;
+    padding-top: 120px;
+}
+
+.socratic-section {
+    background: url(../../img/Home/kids-studing.svg) bottom right;
+    background-repeat: no-repeat;
+    height: inherit;
+    background-position-y: 70px;
+}
+
+.slider-content {
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    color: $secondary-text-color;
+}
+
+.slider-title {
+    font-size: 55px;
+    line-height: 55px;
+    font-family: "Gramatika";
+    margin-bottom: 35px;
+
+    span {
+        color: $secondary-text-color;
+    }
+}
+
+.slider-text {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    display: inline-block;
+    padding: 10px 20px 15px;
+    min-width: 140px;
+    font-size: 20px;
+    color: $third-text-color;
+    font-weight: 300;
+    text-align: center;
+    background-color: $secondary-background;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    max-width: 150px;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        background-color: $btn-background-hover;
+        color: $primary-background;
+    }
+}
+
+@media(max-width: 1310px) {
+    .slider {
+        padding-top: 80px;
+    }
+
+    .socratic-section {
+        background-position-y: bottom;
+        background-size: 40%;
+    }
+
+    .slider-title {
+        font-size: 50px;
+    }
+
+    .slider-content {
+        max-width: 620px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .slider {
+        padding-top: 60px;
+    }
+
+    .slider-title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .slider-content {
+        max-width: 560px;
+    }
+}
+
+@media(max-width: 1023px) {
+    .container {
+        padding: 30px;
+    }
+
+    .slider {
+        padding-top: 40px;
+    }
+
+    .slider-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media(max-width: 900px) {
+    .slider-content {
+        max-width: none;
+    }
+
+    .socratic-section {
+        background-size: 37%;
+    }
+}
+
+@media(max-width: 767px) {
+    .container{
+        padding: 20px;
+    }
+    .slider {
+        padding-top: 30px;
+    }
+
+    .slider-title {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .slider-text {
+        margin-bottom: 40px;
+    }
+    .socratic-section {
+        background-size: 45%;
+    }
+}
+@media(max-width: 599px){
+    .primary-btn {
+        padding: 6px 20px 10px;
+        max-width: 130px;
+        font-size: 16px;
+    }
+    .slider-title {
+        font-size: 34px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .slider-text {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .slider{
+        padding-top: 25px;
+    }
+    .socratic-section {
+        background-size: 55%;
+    }
+}
+@media(max-width: 450px) {
+
+    .slider-title {
+        font-size: 32px;
+    }
+}
+@media(max-width: 425px) {
+
+    .slider-title {
+        font-size: 28px;
+    }
+}
+@media(max-width: 375px) {
+
+    .slider-title {
+        font-size: 26px;
+    }
+    .primary-btn{
+        min-width: 90px;
+        max-width: 100px;
+    }
+}
+@media(max-width: 375px) {
+
+    .slider-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .slider-text{
+        font-size: 16px;
+    }
+    .socratic-section {
+        background-size: 63%;
+    }
+}

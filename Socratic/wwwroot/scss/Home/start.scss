@@ -1,0 +1,15 @@
+﻿.section-start-page {
+    background: url(../../img/Home/image-2.PNG) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 738px;
+    height: auto;
+
+    @media(max-width: 1700px) {
+        background-size: 100%;
+    }
+
+    @media(max-width: 375px) {
+        min-height: 200px;
+    }
+}
